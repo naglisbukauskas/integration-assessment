@@ -2,7 +2,7 @@
 
 ## Overview
 
-Your assignment is to implement a method called `doLookup` which takes as input an array of entity objects. You can find the input to the `doLookup` method in the `data/input.json` file. For each IPv4 address in the list of entity objects, the `doLookup` method should query the Shodan InternetDB API and return the results.
+Your assignment is to implement a method called `doLookup` which takes as input an array of entity objects. You can find the input to the `doLookup` method in the `data/input.json` file. For each IPv4 address in the list of entity objects, the `doLookup` method should query the Shodan InternetDB API and return the results.  A scaffold for the `doLookup` method has been provided within the `do-lookup.js` file for you to use.
 
 This particular API has a single endpoint `GET /{ip}` which takes as input an IP address and returns information about that IP address in JSON format.  You can view sample output here: https://internetdb.shodan.io/8.8.8.8.
 
@@ -73,7 +73,6 @@ npm run search
 
 You should see the output from your method printed to the console.
 
-
 ## Additional Information
 
 1. You can use any third-party NPM modules to assist you with your code (in fact it is encouraged!).  Just add the module(s) to this repo's package.json to incorporate them.
@@ -94,3 +93,18 @@ A: Our expectation is that the assignment will take an hour or less to complete.
 
 Q: What is Shodan?
 A: Shodan is a search engine for Internet Connected devices typically used by information security professionals
+
+
+## Repo Contents
+
+### do-lookup.js
+
+This is the file that contains the `doLookup` method you should provide an implementation for.
+
+### data/input.json
+
+This is the input data for the `doLookup` method which is passed through when running `npm run search`
+
+### main.js
+
+Entrypoint to test the `doLookup` method.
