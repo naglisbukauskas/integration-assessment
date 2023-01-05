@@ -5,7 +5,7 @@ const testData = require('./data/input.json');
     try {
         const results = await doLookup(testData);
         console.info("doLookup results:");
-        console.info(results);
+        console.info(JSON.stringify(results, null, 4));
     } catch (err) {
         console.error(err);
     }
