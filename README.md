@@ -85,13 +85,13 @@ You should see the output from your method printed to the console.
 
 ## FAQ
 
-Q: What version of NodeJS should I use?
+Q: What version of NodeJS should I use?  
 A: You can use any version from Node 12 onward.
 
-Q: How long should I spend on the assignment?
+Q: How long should I spend on the assignment?  
 A: Our expectation is that the assignment will take an hour or less to complete.
 
-Q: What is Shodan?
+Q: What is Shodan?  
 A: Shodan is a search engine for Internet Connected devices typically used by information security professionals
 
 
