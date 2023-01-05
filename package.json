@@ -1,0 +1,9 @@
+{
+  "main": "./main.js",
+  "name": "integration-interview-assignment",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "search": "node main"
+  }
+}
