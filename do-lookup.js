@@ -6,7 +6,7 @@
  * parameter looks like.
  * @returns {Promise<*[]>} - An array of results objects (See README.md for the full output specification).
  */
-async function doLookup(entities){
+async function doLookup(entities) {
     const lookupResults = [];
     // Add additional logic here that will query the Shodan InternetDB API
     // and add the results to the `lookupResults` array.
