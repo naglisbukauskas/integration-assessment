@@ -18,7 +18,7 @@ git branch -M main
 git push -u origin main
 ```
 
-> Please do not fork or create a PR on off of this repo when working on your solution
+> Please do not fork or create a PR off of this repo when working on your solution
 
 ## Overview
 
