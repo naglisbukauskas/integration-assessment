@@ -1,5 +1,25 @@
 # Integration Interview Assignment
 
+## Setup
+
+We recommend cloning this repo to your local system to get started.
+
+```
+git clone https://github.com/breachintelligence/integration-interview-assignment
+```
+
+Alternatively, you can download the repo as a zip: https://github.com/breachintelligence/integration-interview-assignment/archive/refs/heads/master.zip
+
+When submitting your result you can send us a copy of the repo with your solution zipped or tar'd.  Alternatively, you can push your solution to a new GitHub repository by changing the remote origin and then sending us a link to your repo.
+
+```
+git remote set-url origin git@github.com:{{your-account}}/{{your-repo}}.git
+git branch -M main
+git push -u origin main
+```
+
+> Please do not fork or create a PR on off of this repo when working on your solution
+
 ## Overview
 
 Your assignment is to implement a method called `doLookup` which takes as input an array of entity objects. You can find the input to the `doLookup` method in the `data/input.json` file. For each IPv4 address in the list of entity objects, the `doLookup` method should query the Shodan InternetDB API and return the results.  A scaffold for the `doLookup` method has been provided within the `do-lookup.js` file for you to use.
